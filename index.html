@@ -1,6 +1,37 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17725993789"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17725993789');
+</script>
+
+<!-- Event snippet for TechSol - 网页浏览EB5-DUE-DILIGENCE 17757 conversion page -->
+<script>
+    window.addEventListener('load', function () {
+        if (window.location.pathname==="/EB5-DUE-DILIGENCE/") {
+           gtag('event', 'conversion', {'send_to': 'AW-17725993789/FfsbCLfqzMQcEL3mtIRC'});
+        };
+    })
+</script>
+
+<!-- Event snippet for TechSol - EB5-DUE-DILIGENCE - 点击免费领取 92862 conversion page -->
+<script>
+  window.addEventListener('load', function (event) {
+    const qqLinks = document.querySelectorAll('a[href^="https://work.weixin.qq.com/"]');
+
+    qqLinks.forEach(function (link) {
+      link.addEventListener("click", function (event) {
+        gtag('event', 'conversion', {'send_to': 'AW-17725993789/O5eaCOK8464cEL3mtIRC'});
+      });
+    });
+  });
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>老郭聊地产 - EB-5尽调课程免费领取</title>
